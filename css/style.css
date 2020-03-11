@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik&display=swap");
+* {
+    font-family: "Rubik", sans-serif;
+}
+
+.section-presentacion {
+    background-image: url(../images/principal.jpg);
+    height: 657px;
+    background-position: center;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+}
+
+.marca-agua {
+    background: rgba(0, 0, 0, 0.7);
+    height: 657px;
+}
+
+.traducir {
+    max-width: 100%;
+}
+
+.imagen img {
+    border-radius: 50%;
+    border: 3px solid white;
+    width: 200px;
+    height: 200px;
+}
+
+.area-foto {
+    /* border: 3px solid green; */
+    top: 20%;
+}
+
+.area-foto img {
+    border-radius: 50%;
+    border: 5px solid white;
+    max-width: 100%;
+    width: 160px;
+    height: 180px;
+}
+
+#red-social {
+    width: 200px;
+    height: 200px;
+}
+
+.title-presentacion {
+    text-align: center;
+    position: relative;
+    top: 30%;
+    color: white;
+    font-weight: normal;
+    font-family: "Rubik", sans-serif;
+}
+
+.img-portafolio {
+    /* border: 3px salmon solid; */
+    text-align: center;
+    width: 200px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.portafolio a img {
+    position: relative;
+    display: block;
+    margin: auto;
+    height: 200px;
+    width: 300px;
+    margin-bottom: 5px;
+}
+
+
+/* .color {
+    border: 1px solid #dee2e6;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5%;
+} */
+
+.tribute {
+    border-radius: 5%;
+}
+
+.section-servicios {
+    background-image: url(../images/principal.jpg);
+}
+
+button {
+    cursor: pointer;
+    margin-top: 10px;
+}
