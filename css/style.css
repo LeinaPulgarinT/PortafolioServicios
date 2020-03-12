@@ -52,6 +52,7 @@
     color: wheat;
     font-weight: normal;
     font-family: "Rubik", sans-serif;
+    letter-spacing: 2px;
 }
 
 .img-portafolio {
@@ -115,3 +116,26 @@ button {
 .navbar {
     color: wheat;
 }
+
+#navbarSupportedContent ul {
+    /* float: right; */
+    /* border: 3px green solid; */
+    position: relative;
+    left: 50%;
+    /* display: flex;
+    float: left;
+    align-items: center; */
+}
+
+span {
+    color: #00b0dc;
+}
+
+
+/* .boton:hover {
+    background: #00b0dc;
+}
+
+.img-portafolio a .boton {
+    border: 1px #00b0dc solid;
+} */
