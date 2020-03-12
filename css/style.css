@@ -13,7 +13,7 @@
 
 .marca-agua {
     background: rgba(0, 0, 0, 0.7);
-    height: 657px;
+    height: 100%;
 }
 
 .traducir {
@@ -34,7 +34,7 @@
 
 .area-foto img {
     border-radius: 50%;
-    border: 5px solid white;
+    border: 5px solid wheat;
     max-width: 100%;
     width: 160px;
     height: 180px;
@@ -49,7 +49,7 @@
     text-align: center;
     position: relative;
     top: 30%;
-    color: white;
+    color: wheat;
     font-weight: normal;
     font-family: "Rubik", sans-serif;
 }
@@ -84,7 +84,12 @@
 }
 
 .section-servicios {
-    background-image: url(../images/principal.jpg);
+    background-image: url(../images/section-servicios.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 550px;
+    /* background: rgba(0, 0, 0, 0.7); */
 }
 
 button {
@@ -94,4 +99,19 @@ button {
 
 .footer {
     text-align: center;
+}
+
+.paisaje-marca-agua {
+    background: rgba(0, 0, 0, 0.7);
+    height: 100%;
+}
+
+.section-servicios {
+    color: wheat;
+    height: 100%;
+    text-align: center;
+}
+
+.navbar {
+    color: wheat;
 }
