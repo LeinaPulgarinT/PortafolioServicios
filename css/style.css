@@ -1,4 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Rubik&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap");
+
+/* font-family: 'Roboto', sans-serif; 
+font-family: 'Montserrat', sans-serif;*/
+
 * {
     font-family: "Rubik", sans-serif;
 }
@@ -8,7 +14,6 @@
     height: 657px;
     background-position: center;
     background-size: cover;
-    /* background-repeat: no-repeat; */
 }
 
 .marca-agua {
@@ -28,7 +33,6 @@
 }
 
 .area-foto {
-    /* border: 3px solid green; */
     top: 20%;
 }
 
@@ -56,7 +60,6 @@
 }
 
 .img-portafolio {
-    /* border: 3px salmon solid; */
     text-align: center;
     width: 200px;
     height: 300px;
@@ -71,14 +74,6 @@
     width: 300px;
     margin-bottom: 5px;
 }
-
-
-/* .color {
-    border: 1px solid #dee2e6;
-    padding-left: 10px;
-    padding-right: 10px;
-    border-radius: 5%;
-} */
 
 .tribute {
     border-radius: 5%;
@@ -118,24 +113,83 @@ button {
 }
 
 #navbarSupportedContent ul {
-    /* float: right; */
-    /* border: 3px green solid; */
     position: relative;
     left: 50%;
-    /* display: flex;
-    float: left;
-    align-items: center; */
 }
 
 span {
     color: #00b0dc;
 }
 
-
-/* .boton:hover {
-    background: #00b0dc;
+body .footer .container-footer .icon-facebook {
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    position: relative;
+    display: block;
+    margin: auto;
+    justify-content: center;
+    padding-top: 0.6rem;
 }
 
-.img-portafolio a .boton {
-    border: 1px #00b0dc solid;
-} */
+.whatsap .icon-whatsapp {
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    position: relative;
+    display: block;
+    margin: auto;
+    justify-content: center;
+    padding-top: 0.6rem;
+}
+
+.github .icon-github-circled {
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    position: relative;
+    display: block;
+    margin: auto;
+    justify-content: center;
+    padding-top: 0.6rem;
+}
+
+.gmail .icon-gmail {
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    position: relative;
+    display: block;
+    margin: auto;
+    justify-content: center;
+    padding-top: 0.6rem;
+    padding-right: 0.2rem;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+.container-footer h4 {
+    font-size: 14px;
+}
+
+.container-footer div {
+    background-color: #00b0dc;
+    width: 4rem;
+    height: 4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 50%;
+    align-items: center;
+    border: 3px rgb(218, 213, 213) solid;
+}
+
+.container-footer div:hover {
+    width: 5rem;
+    height: 5rem;
+    /* margin-bottom: 2rem; */
+}
