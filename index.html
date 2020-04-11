@@ -1,113 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/fontello.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/fontello.css" />
     <title>Document</title>
-</head>
+  </head>
 
-
-<body>
+  <body>
     <!-- bg-dark -->
     <header class="header">
-        <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light"> -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top ">
-            <a class="navbar-brand" href="#"> <span>LEINA</span> PULGARIN</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-            </button>
+      <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light"> -->
+      <nav
+        class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"
+        id="navbar"
+      >
+        <a class="navbar-brand" href="#"> <span>LEINA</span> PULGARIN</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#inicio">INICIO<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#portafolio">PORTAFOLIO</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#competencias">COMPETENCIAS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link float-right" href="#acerca">ACERCA DE</a>
-                    </li>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#inicio"
+                >INICIO<span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portafolio">PORTAFOLIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#competencias">COMPETENCIAS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link float-right" href="#acerca">ACERCA DE</a>
+            </li>
 
-                    <!-- <li class="nav-item">
+            <!-- <li class="nav-item">
                             <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">COMPETENCIAS</a>
                         </li> -->
-                </ul>
-
-            </div>
-        </nav>
+          </ul>
+        </div>
+      </nav>
     </header>
 
     <main class="main">
-        <section class="section-presentacion" id="inicio">
-            <div class="marca-agua">
+      <section class="section-presentacion" id="inicio">
+        <div class="marca-agua">
+          <div class="container area-foto position-relative">
+            <img
+              class="leina img-fluid d-block m-auto"
+              src="./images/soranlly.jpg "
+              alt=""
+            />
+          </div>
 
-                <div class="container area-foto position-relative">
-                    <img class="leina img-fluid d-block m-auto" src="./images/soranlly.jpg " alt="">
-                </div>
+          <div class="title-presentacion">
+            <h1 id="welcome-section">¡Hola!</h1>
+            <h3>Mi nombre el Leina y soy Desarrolladora Front-End</h3>
+          </div>
+        </div>
+      </section>
 
-                <div class="title-presentacion">
-                    <h1>¡Hola!</h1>
-                    <h3>Mi nombre el Leina y soy Desarrolladora Front-End</h3>
-                </div>
-
-
+      <section class="section-portafolio" id="portafolio">
+        <div class="container container-portafolio" id="projects">
+          <h2 class="text-center p-4 project-tile">
+            MI <span>PORTAFOLIO</span>
+          </h2>
+          <div class="row justify-content-center">
+            <div class="container-12 col-sm-6 col-md-4 img-portafolio">
+              <h5 class="">TRIBUTO PAGE</h5>
+              <div class="portafolio">
+                <a
+                  target="blank"
+                  href="https://leinapulgarint.github.io/tribute-page/"
+                  ><img
+                    src="./images/paginaTribute.PNG"
+                    alt=""
+                    class="img-fluid tribute"
+                /></a>
+              </div>
+              <a
+                href="https://github.com/LeinaPulgarinT/tribute-page"
+                target="_blank"
+                ><button type="button" class="btn btn-outline-primary boton">
+                  Code
+                </button></a
+              >
             </div>
-        </section>
-
-        <section class="section-portafolio" id="portafolio">
-            <div class="container container-portafolio">
-                <h2 class="text-center p-4">MI <span>PORTAFOLIO</span></h2>
-                <div class="row justify-content-center">
-                    <div class="container-12 col-sm-6 col-md-4 img-portafolio">
-
-                        <h5 class="">TRIBUTO PAGE</h5>
-                        <div class="portafolio">
-                            <a target="blank" href="https://leinapulgarint.github.io/tribute-page/"><img src="./images/paginaTribute.PNG" alt="" class=" img-fluid tribute"></a>
-
-                        </div>
-                        <a href="https://github.com/LeinaPulgarinT/tribute-page" target="_blank"><button type="button" class="btn btn-outline-primary boton">Code</button></a>
-
-                    </div>
-                    <div class="container-12 col-sm-6 col-md-4 img-portafolio">
-                        <h5 class="">FORMULARIO</h5>
-                        <div class="portafolio">
-                            <a target="_blank" href="https://leinapulgarint.github.io/formulario/"> <img class="img-fluid tribute" src="./images/formulario.PNG" alt=""></a>
-
-                        </div>
-                        <a href="https://github.com/LeinaPulgarinT/formulario" target="_blank"><button type="button" class="btn btn-outline-primary">Code</button></a>
-                    </div>
-                    <div class="container-12 col-sm-6 col-md-4 img-portafolio">
-                        <h5 class="">LANDING PAGE</h5>
-                        <div class="portafolio">
-                            <a href="https://leinapulgarint.github.io/productPage/" target="_blank"><img class="img-fluid tribute" src="./images/landingPage.PNG" alt=""></a>
-
-                        </div>
-                        <a href="https://github.com/LeinaPulgarinT/productPage" target="_blank"><button type="button" class="btn btn-outline-primary">Code</button></a>
-                    </div>
-                    <div class="container-12 col-sm-6 col-md-4 img-portafolio">
-                        <h5 class="">Technical documentation page </h5>
-                        <div class="portafolio">
-                            <a href="https://leinapulgarint.github.io/paginaDeDocumentacion/" target="_blank"><img class="img-fluid tribute " src="./images/technical.PNG" alt=""></a>
-
-                        </div>
-                        <a href="https://github.com/LeinaPulgarinT/paginaDeDocumentacion" target="_blank"><button type="button" class="btn btn-outline-primary">Code</button></a>
-                    </div>
-                    <div class="container-12 col-sm-6 col-md-4 img-portafolio">
-                        <h5 class="">RETO GRUPAL</h5>
-                        <div class="portafolio">
-                            <a href="https://lauracosorio.github.io/lcd/inicio.html" target="_blank"><img class="img-fluid tribute" src="./images/reto-grupo.PNG" alt=""></a>
-                        </div>
-                        <a href="https://github.com/lauracosorio/lcd" target="_blank"><button type="button" class="btn btn-outline-primary">Code</button></a>
-                    </div>
-                    <!-- <div class="container-12 col-sm-6 col-md-4 img-portafolio">
+            <div class="container-12 col-sm-6 col-md-4 img-portafolio">
+              <h5 class="">FORMULARIO</h5>
+              <div class="portafolio">
+                <a
+                  target="_blank"
+                  href="https://leinapulgarint.github.io/formulario/"
+                >
+                  <img
+                    class="img-fluid tribute"
+                    src="./images/formulario.PNG"
+                    alt=""
+                /></a>
+              </div>
+              <a
+                href="https://github.com/LeinaPulgarinT/formulario"
+                target="_blank"
+                ><button type="button" class="btn btn-outline-primary">
+                  Code
+                </button></a
+              >
+            </div>
+            <div class="container-12 col-sm-6 col-md-4 img-portafolio">
+              <h5 class="">LANDING PAGE</h5>
+              <div class="portafolio">
+                <a
+                  href="https://leinapulgarint.github.io/productPage/"
+                  target="_blank"
+                  ><img
+                    class="img-fluid tribute"
+                    src="./images/landingPage.PNG"
+                    alt=""
+                /></a>
+              </div>
+              <a
+                href="https://github.com/LeinaPulgarinT/productPage"
+                target="_blank"
+                ><button type="button" class="btn btn-outline-primary">
+                  Code
+                </button></a
+              >
+            </div>
+            <div class="container-12 col-sm-6 col-md-4 img-portafolio">
+              <h5 class="">Technical documentation page</h5>
+              <div class="portafolio">
+                <a
+                  href="https://leinapulgarint.github.io/paginaDeDocumentacion/"
+                  target="_blank"
+                  ><img
+                    class="img-fluid tribute"
+                    src="./images/technical.PNG"
+                    alt=""
+                /></a>
+              </div>
+              <a
+                href="https://github.com/LeinaPulgarinT/paginaDeDocumentacion"
+                target="_blank"
+                ><button type="button" class="btn btn-outline-primary">
+                  Code
+                </button></a
+              >
+            </div>
+            <div class="container-12 col-sm-6 col-md-4 img-portafolio">
+              <h5 class="">RETO GRUPAL</h5>
+              <div class="portafolio">
+                <a
+                  href="https://lauracosorio.github.io/lcd/inicio.html"
+                  target="_blank"
+                  ><img
+                    class="img-fluid tribute"
+                    src="./images/reto-grupo.PNG"
+                    alt=""
+                /></a>
+              </div>
+              <a href="https://github.com/lauracosorio/lcd" target="_blank"
+                ><button type="button" class="btn btn-outline-primary">
+                  Code
+                </button></a
+              >
+            </div>
+            <!-- <div class="container-12 col-sm-6 col-md-4 img-portafolio">
                         <h5 class="">TIENDA</h5>
                         <div class="portafolio">
                             <a href=""> <img class="img-fluid tribute" src="./images/reto-grupo.PNG" alt=""></a>
@@ -115,167 +186,188 @@
                         </div>
                         <a href="https://github.com/LeinaPulgarinT/tribute-page" target="_blank"><button type="button" class="btn btn-outline-primary">Code</button></a>
                     </div> -->
-                    <div class="container-12 col-sm-6 col-md-4 img-portafolio">
-                        <h5 class="">RED SOCIAL</h5>
-                        <div class="portafolio red-social">
-                            <a href="https://leinapulgarint.github.io/redSocial/" target="_blank"><img class="img-fluid tribute" src="./images/red-social.PNG" alt=""></a>
-                        </div>
-                        <a href=" https://github.com/LeinaPulgarinT/redSocial" target="_blank"><button type="button" class="btn btn-outline-primary boton">Code</button></a>
-
-                    </div>
-                </div>
+            <div class="container-12 col-sm-6 col-md-4 img-portafolio">
+              <h5 class="">RED SOCIAL</h5>
+              <div class="portafolio red-social">
+                <a
+                  href="https://leinapulgarint.github.io/redSocial/"
+                  target="_blank"
+                  ><img
+                    class="img-fluid tribute"
+                    src="./images/red-social.PNG"
+                    alt=""
+                /></a>
+              </div>
+              <a
+                href=" https://github.com/LeinaPulgarinT/redSocial"
+                target="_blank"
+                ><button type="button" class="btn btn-outline-primary boton">
+                  Code
+                </button></a
+              >
             </div>
+          </div>
+        </div>
+      </section>
 
-        </section>
-
-        <section class="section-servicios" id="competencias">
-            <div class="container-fluid paisaje-marca-agua">
-                <div class="container container-servicios">
-
-                    <h2 class="subtitulo-servicios d-block p-4 text-center">Como desarrolladora Fronnt-End me asuguro de que los proyectos cuenten con las siguientes caracteristicas.</h2>
-                    <div class="row">
-                        <div class=" container-12 col-sm-6 col-md-3 ">
-
-                            <div class="p-4">
-                                <h4 class="
-                            ">Traducción</h4>
-                            </div>
-                            <div class="imagen">
-                                <img class="img-fluid traducir  " src="./images/traducir-contenido.jpg" alt="">
-                            </div>
-                            <p>traducir el diseño de un sitio a código HTML y CSS.</p>
-                        </div>
-                        <div class=" container-12 col-sm-6 col-md-3">
-                            <div class="p-4">
-                                <h4>Semantica</h4>
-                            </div>
-                            <div class="imagen">
-                                <img class="img-fluid traducir  " src="./images/semantica.png" alt="">
-                            </div>
-                            <p>Estructurar el contenido de forma semántica.</p>
-                        </div>
-                        <div class="container-12 col-sm-6 col-md-3">
-                            <div class="p-4">
-                                <h4>Accesibilidad</h4>
-                            </div>
-                            <div class="imagen">
-                                <img class="img-fluid traducir  " src="./images/accesibilidad2.jpg" alt="">
-
-                            </div>
-                            <p>Asegurar la accesibilidad de los sitios.</p>
-                        </div>
-                        <div class="container-12 col-sm-6 col-md-3 hola">
-
-                            <div class="p-4">
-                                <h4>
-                                    Interactividad
-                                </h4>
-                            </div>
-                            <div class="imagen  ">
-                                <img class="img-fluid traducir  " src="./images/diseño-interactivo.gif" alt="">
-                            </div>
-                            <p>Controlar las tipografías, plantillas, formas del diseño y la interactividad.</p>
-
-
-                        </div>
-
-
-                    </div>
+      <section class="section-servicios" id="competencias">
+        <div class="container-fluid paisaje-marca-agua">
+          <div class="container container-servicios">
+            <h2 class="subtitulo-servicios d-block p-4 text-center">
+              Como desarrolladora Fronnt-End me asuguro de que los proyectos
+              cuenten con las siguientes caracteristicas.
+            </h2>
+            <div class="row">
+              <div class="container-12 col-sm-6 col-md-3">
+                <div class="p-4">
+                  <h4
+                    class="
+                            "
+                  >
+                    Traducción
+                  </h4>
                 </div>
-            </div>
-
-
-        </section>
-        <section>
-
-            <div class="container section-acercade p-4" id="acerca">
-                <h2 class="text-center p-4">ACERCA <span>DE</span></h2>
-                <div class="row">
-                    <div class="col">
-                        <div>
-                            <h4>habilidades</h4>
-                        </div>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum inventore consequuntur quidem cumque tempore quasi fugit asperiores? Similique quia officiis hic beatae, vel quisquam fugiat itaque iste eius laborum deserunt!
-                        </p>
-                    </div>
-                    <div class="col">
-                        <div>
-                            <h4>Educacion</h4>
-                        </div>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum inventore consequuntur quidem cumque tempore quasi fugit asperiores? Similique quia officiis hic beatae, vel quisquam fugiat itaque iste eius laborum deserunt!
-                        </p>
-                    </div>
-                    <div class="col">
-                        <div>
-                            <h4>Experiencias</h4>
-                        </div>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum inventore consequuntur quidem cumque tempore quasi fugit asperiores? Similique quia officiis hic beatae, vel quisquam fugiat itaque iste eius laborum deserunt!
-                        </p>
-                    </div>
+                <div class="imagen">
+                  <img
+                    class="img-fluid traducir"
+                    src="./images/traducir-contenido.jpg"
+                    alt=""
+                  />
                 </div>
-            </div>
-        </section>
-
-        <section class="">
-            <div class="container section-contacto p-4">
-                <!-- <h2>contacto</h2> -->
-                <div class="row">
-                    <div class="col"></div>
-                    <div class="col"></div>
-                    <div class="col"></div>
+                <p>traducir el diseño de un sitio a código HTML y CSS.</p>
+              </div>
+              <div class="container-12 col-sm-6 col-md-3">
+                <div class="p-4">
+                  <h4>Semantica</h4>
                 </div>
-            </div>
-
-
-
-        </section>
-
-        <section>
-            <div class="container">
-                <div class="row">
-
+                <div class="imagen">
+                  <img
+                    class="img-fluid traducir"
+                    src="./images/semantica.png"
+                    alt=""
+                  />
                 </div>
+                <p>Estructurar el contenido de forma semántica.</p>
+              </div>
+              <div class="container-12 col-sm-6 col-md-3">
+                <div class="p-4">
+                  <h4>Accesibilidad</h4>
+                </div>
+                <div class="imagen">
+                  <img
+                    class="img-fluid traducir"
+                    src="./images/accesibilidad2.jpg"
+                    alt=""
+                  />
+                </div>
+                <p>Asegurar la accesibilidad de los sitios.</p>
+              </div>
+              <div class="container-12 col-sm-6 col-md-3 hola">
+                <div class="p-4">
+                  <h4>
+                    Interactividad
+                  </h4>
+                </div>
+                <div class="imagen">
+                  <img
+                    class="img-fluid traducir"
+                    src="./images/diseño-interactivo.gif"
+                    alt=""
+                  />
+                </div>
+                <p>
+                  Controlar las tipografías, plantillas, formas del diseño y la
+                  interactividad.
+                </p>
+              </div>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container section-acercade p-4" id="acerca">
+          <h2 class="text-center p-4">ACERCA <span>DE</span></h2>
+          <div class="row">
+            <div class="col">
+              <div>
+                <h4>habilidades</h4>
+              </div>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Voluptatum inventore consequuntur quidem cumque tempore quasi
+                fugit asperiores? Similique quia officiis hic beatae, vel
+                quisquam fugiat itaque iste eius laborum deserunt!
+              </p>
+            </div>
+            <div class="col">
+              <div>
+                <h4>Educacion</h4>
+              </div>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Voluptatum inventore consequuntur quidem cumque tempore quasi
+                fugit asperiores? Similique quia officiis hic beatae, vel
+                quisquam fugiat itaque iste eius laborum deserunt!
+              </p>
+            </div>
+            <div class="col">
+              <div>
+                <h4>Experiencias</h4>
+              </div>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Voluptatum inventore consequuntur quidem cumque tempore quasi
+                fugit asperiores? Similique quia officiis hic beatae, vel
+                quisquam fugiat itaque iste eius laborum deserunt!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
 
+      <section class="">
+        <div class="container section-contacto p-4">
+          <!-- <h2>contacto</h2> -->
+          <div class="row">
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col"></div>
+          </div>
+        </div>
+      </section>
 
-
+      <section>
+        <div class="container">
+          <div class="row"></div>
+        </div>
+      </section>
     </main>
 
     <footer class="footer">
-
-        <div class="container-footer">
-
-            <div class="facebook">
-                <a class="icon-facebook " href=""></a>
-            </div>
-            <div class="whatsap">
-                <a class="icon-whatsapp" href=""></a>
-            </div>
-            <div class="github">
-                <a class="icon-github-circled" href="https://github.com/LeinaPulgarinT?tab=repositories" target="_blank"></a>
-            </div>
-            <div class="gmail">
-                <a class="icon-gmail" href=""></a>
-            </div>
+      <div class="container-footer">
+        <div class="facebook">
+          <a class="icon-facebook" href=""></a>
         </div>
-        <h4>Web development &copy; 2020</h4>
-
+        <div class="whatsap">
+          <a class="icon-whatsapp" href=""></a>
+        </div>
+        <div class="github">
+          <a
+            class="icon-github-circled"
+            href="https://github.com/LeinaPulgarinT?tab=repositories"
+            target="_blank"
+          ></a>
+        </div>
+        <div class="gmail">
+          <a class="icon-gmail" href=""></a>
+        </div>
+      </div>
+      <h4>Web development &copy; 2020</h4>
     </footer>
-
-
-
-
-
-
-
-
 
     <script src="./js/script.js"></script>
     <script src="./js/jquery-3.4.1.min.js"></script>
     <script src="./js/popper.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
-
-</body>
-
+  </body>
 </html>
